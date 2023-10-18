@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1114D272A47EBB80022CEC8 /* E_Waste_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1114D262A47EBB80022CEC8 /* E_Waste_APPApp.swift */; };
+		A1114D292A47EBB80022CEC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1114D282A47EBB80022CEC8 /* ContentView.swift */; };
+		A1114D2B2A47EBBB0022CEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1114D2A2A47EBBB0022CEC8 /* Assets.xcassets */; };
+		A1114D2F2A47EBBB0022CEC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1114D2E2A47EBBB0022CEC8 /* Preview Assets.xcassets */; };
+		A1114D392A47EBBB0022CEC8 /* E_Waste_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1114D382A47EBBB0022CEC8 /* E_Waste_APPTests.swift */; };
+		A1114D432A47EBBB0022CEC8 /* E_Waste_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1114D422A47EBBB0022CEC8 /* E_Waste_APPUITests.swift */; };
+		A1114D452A47EBBB0022CEC8 /* E_Waste_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1114D442A47EBBB0022CEC8 /* E_Waste_APPUITestsLaunchTests.swift */; };
+		A11BC48B2AA4313C00FDD70C /* data3.json in Resources */ = {isa = PBXBuildFile; fileRef = A11BC48A2AA4313B00FDD70C /* data3.json */; };
+		A11BC48D2AA4353E00FDD70C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11BC48C2AA4353E00FDD70C /* UserData.swift */; };
+		A11BC48F2AA4362C00FDD70C /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11BC48E2AA4362C00FDD70C /* DataLoader.swift */; };
+		A12361592AA82982008F9860 /* PhoneViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12361582AA82982008F9860 /* PhoneViewUI.swift */; };
+		A13335C72A64E32C006E35E0 /* hi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13335C62A64E32B006E35E0 /* hi.swift */; };
+		A13335C92A64E3BA006E35E0 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13335C82A64E3BA006E35E0 /* PhoneView.swift */; };
+		A17D4F142A4D2B1600638CEF /* NavigationLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D4F132A4D2B1600638CEF /* NavigationLinks.swift */; };
+		A17D4F162A4D2B6400638CEF /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D4F152A4D2B6400638CEF /* Phone.swift */; };
+		A17D4F182A4D2B7D00638CEF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D4F172A4D2B7D00638CEF /* DetailView.swift */; };
+		A17D4F1A2A4D2C1500638CEF /* NavigationLinks2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D4F192A4D2C1500638CEF /* NavigationLinks2.swift */; };
+		A17D4F1E2A512A9F00638CEF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D4F1D2A512A9F00638CEF /* File.swift */; };
+		A19F2A012AA8086D00A05F64 /* TheApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19F2A002AA8086D00A05F64 /* TheApiResponse.swift */; };
+		A1B9F2C72A4BEA0A005C58A2 /* FacilityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9F2C62A4BEA0A005C58A2 /* FacilityScreen.swift */; };
+		A1DC19DE2AA6E2EE001A1CDD /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A1DC19DD2AA6E2EE001A1CDD /* data.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1114D352A47EBBB0022CEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1114D1B2A47EBB80022CEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1114D222A47EBB80022CEC8;
+			remoteInfo = "E-Waste APP";
+		};
+		A1114D3F2A47EBBB0022CEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1114D1B2A47EBB80022CEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1114D222A47EBB80022CEC8;
+			remoteInfo = "E-Waste APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1114D232A47EBB80022CEC8 /* E-Waste APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Waste APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1114D262A47EBB80022CEC8 /* E_Waste_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_Waste_APPApp.swift; sourceTree = "<group>"; };
+		A1114D282A47EBB80022CEC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1114D2A2A47EBBB0022CEC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1114D2C2A47EBBB0022CEC8 /* E_Waste_APP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = E_Waste_APP.entitlements; sourceTree = "<group>"; };
+		A1114D2E2A47EBBB0022CEC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1114D342A47EBBB0022CEC8 /* E-Waste APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-Waste APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1114D382A47EBBB0022CEC8 /* E_Waste_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_Waste_APPTests.swift; sourceTree = "<group>"; };
+		A1114D3E2A47EBBB0022CEC8 /* E-Waste APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-Waste APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1114D422A47EBBB0022CEC8 /* E_Waste_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_Waste_APPUITests.swift; sourceTree = "<group>"; };
+		A1114D442A47EBBB0022CEC8 /* E_Waste_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_Waste_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A11BC48A2AA4313B00FDD70C /* data3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data3.json; path = ../../../Desktop/ewasteapp/data3.json; sourceTree = "<group>"; };
+		A11BC48C2AA4353E00FDD70C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		A11BC48E2AA4362C00FDD70C /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		A12361582AA82982008F9860 /* PhoneViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewUI.swift; sourceTree = "<group>"; };
+		A13335C62A64E32B006E35E0 /* hi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hi.swift; sourceTree = "<group>"; };
+		A13335C82A64E3BA006E35E0 /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		A17D4F132A4D2B1600638CEF /* NavigationLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinks.swift; sourceTree = "<group>"; };
+		A17D4F152A4D2B6400638CEF /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		A17D4F172A4D2B7D00638CEF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A17D4F192A4D2C1500638CEF /* NavigationLinks2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinks2.swift; sourceTree = "<group>"; };
+		A17D4F1D2A512A9F00638CEF /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A19F2A002AA8086D00A05F64 /* TheApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheApiResponse.swift; sourceTree = "<group>"; };
+		A1B9F2C62A4BEA0A005C58A2 /* FacilityScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacilityScreen.swift; sourceTree = "<group>"; };
+		A1DC19DD2AA6E2EE001A1CDD /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = ../../../Desktop/ewasteapp/data.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1114D202A47EBB80022CEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1114D312A47EBBB0022CEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1114D3B2A47EBBB0022CEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1114D1A2A47EBB80022CEC8 = {
+			isa = PBXGroup;
+			children = (
+				A13335C62A64E32B006E35E0 /* hi.swift */,
+				A1114D252A47EBB80022CEC8 /* E-Waste APP */,
+				A1114D372A47EBBB0022CEC8 /* E-Waste APPTests */,
+				A1114D412A47EBBB0022CEC8 /* E-Waste APPUITests */,
+				A1114D242A47EBB80022CEC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1114D242A47EBB80022CEC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1114D232A47EBB80022CEC8 /* E-Waste APP.app */,
+				A1114D342A47EBBB0022CEC8 /* E-Waste APPTests.xctest */,
+				A1114D3E2A47EBBB0022CEC8 /* E-Waste APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1114D252A47EBB80022CEC8 /* E-Waste APP */ = {
+			isa = PBXGroup;
+			children = (
+				A1114D262A47EBB80022CEC8 /* E_Waste_APPApp.swift */,
+				A12361582AA82982008F9860 /* PhoneViewUI.swift */,
+				A11BC48A2AA4313B00FDD70C /* data3.json */,
+				A1DC19DD2AA6E2EE001A1CDD /* data.json */,
+				A1114D282A47EBB80022CEC8 /* ContentView.swift */,
+				A17D4F1D2A512A9F00638CEF /* File.swift */,
+				A17D4F132A4D2B1600638CEF /* NavigationLinks.swift */,
+				A17D4F152A4D2B6400638CEF /* Phone.swift */,
+				A13335C82A64E3BA006E35E0 /* PhoneView.swift */,
+				A11BC48E2AA4362C00FDD70C /* DataLoader.swift */,
+				A19F2A002AA8086D00A05F64 /* TheApiResponse.swift */,
+				A11BC48C2AA4353E00FDD70C /* UserData.swift */,
+				A17D4F172A4D2B7D00638CEF /* DetailView.swift */,
+				A17D4F192A4D2C1500638CEF /* NavigationLinks2.swift */,
+				A17D4F0E2A4D2A2200638CEF /* New Group */,
+				A1B9F2C62A4BEA0A005C58A2 /* FacilityScreen.swift */,
+				A17D4F072A4D289A00638CEF /* Device types */,
+				A1114D2A2A47EBBB0022CEC8 /* Assets.xcassets */,
+				A1114D2C2A47EBBB0022CEC8 /* E_Waste_APP.entitlements */,
+				A1114D2D2A47EBBB0022CEC8 /* Preview Content */,
+			);
+			path = "E-Waste APP";
+			sourceTree = "<group>";
+		};
+		A1114D2D2A47EBBB0022CEC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1114D2E2A47EBBB0022CEC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1114D372A47EBBB0022CEC8 /* E-Waste APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1114D382A47EBBB0022CEC8 /* E_Waste_APPTests.swift */,
+			);
+			path = "E-Waste APPTests";
+			sourceTree = "<group>";
+		};
+		A1114D412A47EBBB0022CEC8 /* E-Waste APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1114D422A47EBBB0022CEC8 /* E_Waste_APPUITests.swift */,
+				A1114D442A47EBBB0022CEC8 /* E_Waste_APPUITestsLaunchTests.swift */,
+			);
+			path = "E-Waste APPUITests";
+			sourceTree = "<group>";
+		};
+		A17D4F072A4D289A00638CEF /* Device types */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Device types";
+			sourceTree = "<group>";
+		};
+		A17D4F0E2A4D2A2200638CEF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1114D222A47EBB80022CEC8 /* E-Waste APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1114D482A47EBBB0022CEC8 /* Build configuration list for PBXNativeTarget "E-Waste APP" */;
+			buildPhases = (
+				A1114D1F2A47EBB80022CEC8 /* Sources */,
+				A1114D202A47EBB80022CEC8 /* Frameworks */,
+				A1114D212A47EBB80022CEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-Waste APP";
+			productName = "E-Waste APP";
+			productReference = A1114D232A47EBB80022CEC8 /* E-Waste APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1114D332A47EBBB0022CEC8 /* E-Waste APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1114D4B2A47EBBB0022CEC8 /* Build configuration list for PBXNativeTarget "E-Waste APPTests" */;
+			buildPhases = (
+				A1114D302A47EBBB0022CEC8 /* Sources */,
+				A1114D312A47EBBB0022CEC8 /* Frameworks */,
+				A1114D322A47EBBB0022CEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1114D362A47EBBB0022CEC8 /* PBXTargetDependency */,
+			);
+			name = "E-Waste APPTests";
+			productName = "E-Waste APPTests";
+			productReference = A1114D342A47EBBB0022CEC8 /* E-Waste APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1114D3D2A47EBBB0022CEC8 /* E-Waste APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1114D4E2A47EBBB0022CEC8 /* Build configuration list for PBXNativeTarget "E-Waste APPUITests" */;
+			buildPhases = (
+				A1114D3A2A47EBBB0022CEC8 /* Sources */,
+				A1114D3B2A47EBBB0022CEC8 /* Frameworks */,
+				A1114D3C2A47EBBB0022CEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1114D402A47EBBB0022CEC8 /* PBXTargetDependency */,
+			);
+			name = "E-Waste APPUITests";
+			productName = "E-Waste APPUITests";
+			productReference = A1114D3E2A47EBBB0022CEC8 /* E-Waste APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1114D1B2A47EBB80022CEC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A1114D222A47EBB80022CEC8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A1114D332A47EBBB0022CEC8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A1114D222A47EBB80022CEC8;
+					};
+					A1114D3D2A47EBBB0022CEC8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A1114D222A47EBB80022CEC8;
+					};
+				};
+			};
+			buildConfigurationList = A1114D1E2A47EBB80022CEC8 /* Build configuration list for PBXProject "E-Waste APP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1114D1A2A47EBB80022CEC8;
+			productRefGroup = A1114D242A47EBB80022CEC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1114D222A47EBB80022CEC8 /* E-Waste APP */,
+				A1114D332A47EBBB0022CEC8 /* E-Waste APPTests */,
+				A1114D3D2A47EBBB0022CEC8 /* E-Waste APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1114D212A47EBB80022CEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1114D2F2A47EBBB0022CEC8 /* Preview Assets.xcassets in Resources */,
+				A11BC48B2AA4313C00FDD70C /* data3.json in Resources */,
+				A1DC19DE2AA6E2EE001A1CDD /* data.json in Resources */,
+				A1114D2B2A47EBBB0022CEC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1114D322A47EBBB0022CEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1114D3C2A47EBBB0022CEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1114D1F2A47EBB80022CEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17D4F162A4D2B6400638CEF /* Phone.swift in Sources */,
+				A17D4F1A2A4D2C1500638CEF /* NavigationLinks2.swift in Sources */,
+				A17D4F182A4D2B7D00638CEF /* DetailView.swift in Sources */,
+				A1B9F2C72A4BEA0A005C58A2 /* FacilityScreen.swift in Sources */,
+				A13335C72A64E32C006E35E0 /* hi.swift in Sources */,
+				A19F2A012AA8086D00A05F64 /* TheApiResponse.swift in Sources */,
+				A11BC48D2AA4353E00FDD70C /* UserData.swift in Sources */,
+				A12361592AA82982008F9860 /* PhoneViewUI.swift in Sources */,
+				A13335C92A64E3BA006E35E0 /* PhoneView.swift in Sources */,
+				A17D4F142A4D2B1600638CEF /* NavigationLinks.swift in Sources */,
+				A11BC48F2AA4362C00FDD70C /* DataLoader.swift in Sources */,
+				A17D4F1E2A512A9F00638CEF /* File.swift in Sources */,
+				A1114D292A47EBB80022CEC8 /* ContentView.swift in Sources */,
+				A1114D272A47EBB80022CEC8 /* E_Waste_APPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1114D302A47EBBB0022CEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1114D392A47EBBB0022CEC8 /* E_Waste_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1114D3A2A47EBBB0022CEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1114D432A47EBBB0022CEC8 /* E_Waste_APPUITests.swift in Sources */,
+				A1114D452A47EBBB0022CEC8 /* E_Waste_APPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1114D362A47EBBB0022CEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1114D222A47EBB80022CEC8 /* E-Waste APP */;
+			targetProxy = A1114D352A47EBBB0022CEC8 /* PBXContainerItemProxy */;
+		};
+		A1114D402A47EBBB0022CEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1114D222A47EBB80022CEC8 /* E-Waste APP */;
+			targetProxy = A1114D3F2A47EBBB0022CEC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1114D462A47EBBB0022CEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1114D472A47EBBB0022CEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1114D492A47EBBB0022CEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "E-Waste APP/E_Waste_APP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"E-Waste APP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ana.E-Waste-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1114D4A2A47EBBB0022CEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "E-Waste APP/E_Waste_APP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"E-Waste APP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ana.E-Waste-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1114D4C2A47EBBB0022CEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ana.E-Waste-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-Waste APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/E-Waste APP";
+			};
+			name = Debug;
+		};
+		A1114D4D2A47EBBB0022CEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ana.E-Waste-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-Waste APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/E-Waste APP";
+			};
+			name = Release;
+		};
+		A1114D4F2A47EBBB0022CEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ana.E-Waste-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "E-Waste APP";
+			};
+			name = Debug;
+		};
+		A1114D502A47EBBB0022CEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ana.E-Waste-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "E-Waste APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1114D1E2A47EBB80022CEC8 /* Build configuration list for PBXProject "E-Waste APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1114D462A47EBBB0022CEC8 /* Debug */,
+				A1114D472A47EBBB0022CEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1114D482A47EBBB0022CEC8 /* Build configuration list for PBXNativeTarget "E-Waste APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1114D492A47EBBB0022CEC8 /* Debug */,
+				A1114D4A2A47EBBB0022CEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1114D4B2A47EBBB0022CEC8 /* Build configuration list for PBXNativeTarget "E-Waste APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1114D4C2A47EBBB0022CEC8 /* Debug */,
+				A1114D4D2A47EBBB0022CEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1114D4E2A47EBBB0022CEC8 /* Build configuration list for PBXNativeTarget "E-Waste APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1114D4F2A47EBBB0022CEC8 /* Debug */,
+				A1114D502A47EBBB0022CEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1114D1B2A47EBB80022CEC8 /* Project object */;
+}
